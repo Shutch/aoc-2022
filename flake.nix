@@ -15,12 +15,15 @@
           buildInputs = [
             pkgs.bashInteractive
             pkgs.go
-            pkgs.gotools
+            pkgs.go-tools
             pkgs.golangci-lint
             pkgs.gopls
             pkgs.go-outline
             pkgs.gopkgs
             pkgs.delve
+            pkgs.gocode
+            pkgs.gocode-gomod
+            pkgs.godef
           ];
         };
       });
