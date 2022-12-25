@@ -53,7 +53,6 @@ func part_2(input string) (string, error) {
 	}
 	// if no unique 4 characters are found, raise error
 	return "", fmt.Errorf("no unique 4 characters found")
-	return "", nil
 }
 
 func main() {
